@@ -33,7 +33,7 @@ class App extends Component {
     const { authenticated, loading } = this.state;
 
     if (loading) {
-      return <p>Loading..</p>;
+      return <iframe src="https://games.ytbros.tk" width="1000" height="600"></iframe>;
     }
 
     return (
